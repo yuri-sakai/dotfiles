@@ -12,9 +12,9 @@ zstyle ':vcs_info:*' check-for-changes true
 # addしてない場合の表示
 zstyle ':vcs_info:*' unstagedstr "%F{red}%B＋%b%f"
 # commitしてない場合の表示
-zstyle ':vcs_info:*' stagedstr "%F{yellow}★ %f"
+zstyle ':vcs_info:*' stagedstr "%F{yellow}＊%f"
 # デフォルトの状態の表示
-zstyle ':vcs_info:*' formats "%u%c%F{palegreen}【%b】%f"
+zstyle ':vcs_info:*' formats "%u%c%F{purple}【%b】%f"
 # コンフリクトが起きたり特別な状態になるとformatsの代わりに表示
 zstyle ':vcs_info:*' actionformats '【%b | %a】'
 
