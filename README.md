@@ -1,2 +1,2 @@
-初回インストール時
-./setup.sh　を実行
+First install
+./setup.sh　
