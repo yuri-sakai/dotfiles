@@ -2,7 +2,7 @@ alias code="open -a /Applications/Visual\ Studio\ Code.app"
 
 PROMPT='
 %F{white}%d%f
-%F{yellow}%B◆%b%f '
+%F{yellow}%B●%b%f '
 
 autoload -Uz vcs_info
 setopt prompt_subst
